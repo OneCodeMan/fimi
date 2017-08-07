@@ -1,0 +1,558 @@
+1502074977859	geckodriver	INFO	geckodriver 0.18.0
+1502074977905	geckodriver	INFO	Listening on 127.0.0.1:56495
+1502074979166	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502074981836	Marionette	INFO	Listening on port 56504
+1502074981936	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502074982127	Marionette	DEBUG	loaded listener.js
+2017-08-06 23:03:02.211 plugin-container[13470:2588616] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:03:02.212 plugin-container[13470:2588616] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075027989	geckodriver	INFO	geckodriver 0.18.0
+1502075028037	geckodriver	INFO	Listening on 127.0.0.1:56571
+1502075029072	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075031094	Marionette	INFO	Listening on port 56580
+1502075031181	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075031387	Marionette	DEBUG	loaded listener.js
+2017-08-06 23:03:51.466 plugin-container[13508:2590001] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:03:51.467 plugin-container[13508:2590001] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075033017	Marionette	INFO	Ceased listening
+1502075050385	geckodriver	INFO	geckodriver 0.18.0
+1502075050431	geckodriver	INFO	Listening on 127.0.0.1:56636
+1502075051455	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075053376	Marionette	INFO	Listening on port 56645
+1502075053457	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075053648	Marionette	DEBUG	loaded listener.js
+1502075053691	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:04:13.731 plugin-container[13527:2590390] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:04:13.732 plugin-container[13527:2590390] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075054233	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075054234	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075056345	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075057876	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 13527] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+1502075061945	Marionette	INFO	Ceased listening
+1502075164455	geckodriver	INFO	geckodriver 0.18.0
+1502075164500	geckodriver	INFO	Listening on 127.0.0.1:56880
+1502075165529	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075167545	Marionette	INFO	Listening on port 56893
+1502075167642	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075167822	Marionette	DEBUG	loaded listener.js
+1502075167852	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:06:07.900 plugin-container[13604:2593095] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:06:07.900 plugin-container[13604:2593095] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075170354	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075170355	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075172515	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075175904	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+2017-08-06 23:06:30.321 plugin-container[13618:2593413] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:06:30.323 plugin-container[13618:2593413] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075191782	Marionette	INFO	Ceased listening
+1502075261258	geckodriver	INFO	geckodriver 0.18.0
+1502075261316	geckodriver	INFO	Listening on 127.0.0.1:57389
+1502075262331	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075264340	Marionette	INFO	Listening on port 57402
+1502075264431	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075264610	Marionette	DEBUG	loaded listener.js
+1502075264640	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:07:44.685 plugin-container[13676:2595480] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:07:44.686 plugin-container[13676:2595480] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075265141	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075265141	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075266813	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075270290	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502075275856	Marionette	INFO	Ceased listening
+1502075431178	geckodriver	INFO	geckodriver 0.18.0
+1502075431222	geckodriver	INFO	Listening on 127.0.0.1:58138
+1502075432253	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075434187	Marionette	INFO	Listening on port 58151
+1502075434257	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075434451	Marionette	DEBUG	loaded listener.js
+1502075434481	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:10:34.531 plugin-container[13781:2598405] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:10:34.532 plugin-container[13781:2598405] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075434942	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075434943	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075436980	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075440888	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1502075450148	geckodriver	INFO	geckodriver 0.18.0
+1502075450194	geckodriver	INFO	Listening on 127.0.0.1:58313
+1502075451212	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075453173	Marionette	INFO	Listening on port 58326
+1502075453223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075453457	Marionette	DEBUG	loaded listener.js
+1502075453503	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:10:53.539 plugin-container[13797:2598752] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:10:53.540 plugin-container[13797:2598752] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075454107	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075454108	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075455657	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075460471	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502075493653	Marionette	INFO	Ceased listening
+1502075571626	geckodriver	INFO	geckodriver 0.18.0
+1502075571672	geckodriver	INFO	Listening on 127.0.0.1:58999
+1502075572696	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075574710	Marionette	INFO	Listening on port 59012
+1502075574762	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075574982	Marionette	DEBUG	loaded listener.js
+1502075575012	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:12:55.067 plugin-container[13886:2601545] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:12:55.068 plugin-container[13886:2601545] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075575439	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075575440	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075576797	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075581327	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502075667244	geckodriver	INFO	geckodriver 0.18.0
+1502075667302	geckodriver	INFO	Listening on 127.0.0.1:59539
+1502075668298	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075670306	Marionette	INFO	Listening on port 59556
+1502075670391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075670573	Marionette	DEBUG	loaded listener.js
+1502075670631	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:14:30.654 plugin-container[13948:2603185] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:14:30.655 plugin-container[13948:2603185] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075671117	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075671118	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075672937	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075677945	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502075682498	Marionette	INFO	Ceased listening
+1502075684100	Marionette	INFO	Ceased listening
+1502075752520	geckodriver	INFO	geckodriver 0.18.0
+1502075752567	geckodriver	INFO	Listening on 127.0.0.1:60072
+1502075753596	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075755591	Marionette	INFO	Listening on port 60085
+1502075755641	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075755858	Marionette	DEBUG	loaded listener.js
+1502075755888	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:15:55.933 plugin-container[14004:2604534] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:15:55.934 plugin-container[14004:2604534] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075756604	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075756605	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075758625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075762606	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502075798127	geckodriver	INFO	geckodriver 0.18.0
+1502075798172	geckodriver	INFO	Listening on 127.0.0.1:60362
+1502075799198	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075800031	Marionette	INFO	Ceased listening
+1502075801338	Marionette	INFO	Listening on port 60375
+1502075801541	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075801728	Marionette	DEBUG	loaded listener.js
+1502075801766	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:16:41.789 plugin-container[14038:2605557] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:16:41.790 plugin-container[14038:2605557] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075802269	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075802269	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075803662	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075808238	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502075843314	geckodriver	INFO	geckodriver 0.18.0
+1502075843363	geckodriver	INFO	Listening on 127.0.0.1:60690
+1502075844379	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502075846476	Marionette	INFO	Listening on port 60703
+1502075846594	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502075846766	Marionette	DEBUG	loaded listener.js
+1502075846805	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:17:26.849 plugin-container[14069:2606201] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:17:26.850 plugin-container[14069:2606201] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502075847425	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502075847425	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502075849332	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502075852599	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502075862284	Marionette	INFO	Ceased listening
+1502075864251	Marionette	INFO	Ceased listening
+1502076034365	geckodriver	INFO	geckodriver 0.18.0
+1502076034412	geckodriver	INFO	Listening on 127.0.0.1:61454
+1502076035440	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502076037350	Marionette	INFO	Listening on port 61463
+1502076037458	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502076037640	Marionette	DEBUG	loaded listener.js
+1502076037671	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:20:37.714 plugin-container[14192:2608198] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:20:37.715 plugin-container[14192:2608198] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502076038408	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502076038409	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502076040403	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502076043637	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502076049546	geckodriver	INFO	geckodriver 0.18.0
+1502076049589	geckodriver	INFO	Listening on 127.0.0.1:61594
+1502076050617	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502076052613	Marionette	INFO	Listening on port 61603
+1502076052710	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502076052886	Marionette	DEBUG	loaded listener.js
+1502076052915	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:20:52.963 plugin-container[14207:2608589] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:20:52.964 plugin-container[14207:2608589] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502076053462	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502076053463	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502076054829	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502076058409	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502076059244	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/"
+1502076059616	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/"
+1502076059617	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/"
+1502076059958	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076060442	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076060459	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076060841	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076060841	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076061042	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076061388	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076061442	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076061853	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076061853	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076062000	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076062304	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076062315	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076062681	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076062681	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076062857	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076063342	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076063360	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076063465	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076063466	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076063601	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076064228	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076064244	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076064352	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076064352	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076064487	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076065309	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076065325	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076065750	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076065750	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076065885	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076066045	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1502076071546	Marionette	INFO	Ceased listening
+1502076082050	geckodriver	INFO	geckodriver 0.18.0
+1502076082095	geckodriver	INFO	Listening on 127.0.0.1:61739
+1502076083122	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502076085101	Marionette	INFO	Listening on port 61748
+1502076085153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502076085373	Marionette	DEBUG	loaded listener.js
+1502076085403	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:21:25.447 plugin-container[14233:2609410] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:21:25.448 plugin-container[14233:2609410] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502076086226	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502076086226	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502076087629	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502076092532	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502076093285	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/"
+1502076094319	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/"
+1502076094320	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/"
+1502076094803	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076095072	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076095086	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076095444	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076095444	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076095583	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076095992	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076096019	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076096138	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076096138	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076096315	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076096613	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076096633	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076096749	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076096750	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076096898	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076097184	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076097207	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076097547	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076097547	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076097683	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076098050	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076098067	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076098468	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076098469	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076098645	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076099176	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076099199	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076099341	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076099341	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076099452	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076100422	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076100435	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076100633	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076100633	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076100785	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076101487	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076101500	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076103144	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076103145	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076103307	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/PXN5DZXEPC"
+1502076103499	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1502076178449	geckodriver	INFO	geckodriver 0.18.0
+1502076178493	geckodriver	INFO	Listening on 127.0.0.1:62168
+1502076179515	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502076181426	Marionette	INFO	Listening on port 62181
+1502076181520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502076181803	Marionette	DEBUG	loaded listener.js
+1502076181844	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-06 23:23:01.888 plugin-container[14302:2611195] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-06 23:23:01.889 plugin-container[14302:2611195] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502076182268	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502076182268	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502076183821	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/"
+1502076189389	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/"
+1502076190322	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/"
+1502076190707	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/"
+1502076190708	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/"
+1502076191239	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076191543	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076191573	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076191681	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076191681	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/QQXLXMX04M"
+1502076191881	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076192269	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076192298	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076192723	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076192723	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/OHKILTFW97"
+1502076192880	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076193283	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076193309	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076193953	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076193954	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/MQYJBYKTVK"
+1502076194101	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076194417	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076194444	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076194559	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076194559	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/KGX59JX6H7"
+1502076194693	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076195035	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076195062	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076195158	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076195158	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/6ZMXTUJ92C"
+1502076195320	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076195842	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076195877	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076195988	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076195988	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/IRIUEJNEZM"
+1502076196123	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076196701	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076196745	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076196843	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076196843	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/M2XAYFTTEN"
+1502076196983	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076197199	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076197221	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076197333	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076197333	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/X8UKHZIPSB"
+1502076197462	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/PXN5DZXEPC"
+1502076197945	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/PXN5DZXEPC"
+1502076197964	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/PXN5DZXEPC"
+1502076198061	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/PXN5DZXEPC"
+1502076198061	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/PXN5DZXEPC"
+1502076198191	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/UXVQPEIOTR"
+1502076198816	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/UXVQPEIOTR"
+1502076198837	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/UXVQPEIOTR"
+1502076198940	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/UXVQPEIOTR"
+1502076198940	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/UXVQPEIOTR"
+1502076199066	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/6MHJK3CF1C"
+1502076200310	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/6MHJK3CF1C"
+1502076200371	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/6MHJK3CF1C"
+1502076200715	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/6MHJK3CF1C"
+1502076200715	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/6MHJK3CF1C"
+1502076200853	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/3CPVHCAANS"
+1502076201831	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/3CPVHCAANS"
+1502076201858	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/3CPVHCAANS"
+1502076201949	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/3CPVHCAANS"
+1502076201949	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/3CPVHCAANS"
+1502076202097	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/9AZW8YSXHA"
+1502076203468	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/9AZW8YSXHA"
+1502076203500	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/9AZW8YSXHA"
+1502076203611	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/9AZW8YSXHA"
+1502076203612	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/9AZW8YSXHA"
+1502076203737	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/Y8OHDLLUN1"
+1502076204337	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/Y8OHDLLUN1"
+1502076204358	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/Y8OHDLLUN1"
+1502076204651	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/Y8OHDLLUN1"
+1502076204652	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/Y8OHDLLUN1"
+1502076204768	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/QPUOVSMEPI"
+1502076205373	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/QPUOVSMEPI"
+1502076205393	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/QPUOVSMEPI"
+1502076205516	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/QPUOVSMEPI"
+1502076205517	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/QPUOVSMEPI"
+1502076205641	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/P4IWXCG6QR"
+1502076206246	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/P4IWXCG6QR"
+1502076206280	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/P4IWXCG6QR"
+1502076206382	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/P4IWXCG6QR"
+1502076206382	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/P4IWXCG6QR"
+1502076206526	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/JTLDWYRONR"
+1502076207199	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/JTLDWYRONR"
+1502076207227	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/JTLDWYRONR"
+1502076207330	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/JTLDWYRONR"
+1502076207330	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/JTLDWYRONR"
+1502076207450	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/SZQKGDOCW9"
+1502076208538	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/SZQKGDOCW9"
+1502076208566	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/SZQKGDOCW9"
+1502076208705	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/SZQKGDOCW9"
+1502076208706	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/SZQKGDOCW9"
+1502076208836	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/KJN4W6BU92"
+1502076209545	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/KJN4W6BU92"
+1502076209571	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/KJN4W6BU92"
+1502076209928	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/KJN4W6BU92"
+1502076209928	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/KJN4W6BU92"
+1502076210073	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/REZJKK5LQC"
+1502076210373	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/REZJKK5LQC"
+1502076210391	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/REZJKK5LQC"
+1502076210726	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/REZJKK5LQC"
+1502076210726	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/REZJKK5LQC"
+1502076210911	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/T6OD5MKEY1"
+1502076212070	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/T6OD5MKEY1"
+1502076212102	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/T6OD5MKEY1"
+1502076212203	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/T6OD5MKEY1"
+1502076212203	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/T6OD5MKEY1"
+1502076212320	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/UG76JFIIHZ"
+1502076212767	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/UG76JFIIHZ"
+1502076212788	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/UG76JFIIHZ"
+1502076212925	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/UG76JFIIHZ"
+1502076212925	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/UG76JFIIHZ"
+1502076213054	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/OFYM0BVFEH"
+1502076213690	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/OFYM0BVFEH"
+1502076213709	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/OFYM0BVFEH"
+1502076213813	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/OFYM0BVFEH"
+1502076213813	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/OFYM0BVFEH"
+1502076213936	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/UXYRMAODKE"
+1502076214443	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/UXYRMAODKE"
+1502076214465	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/UXYRMAODKE"
+1502076214572	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/UXYRMAODKE"
+1502076214572	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/UXYRMAODKE"
+1502076214703	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/04USGA6ASM"
+1502076215338	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/04USGA6ASM"
+1502076215358	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/04USGA6ASM"
+1502076215450	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/04USGA6ASM"
+1502076215451	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/04USGA6ASM"
+1502076215589	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/NIRVEY04MU"
+1502076215773	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/NIRVEY04MU"
+1502076215797	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/NIRVEY04MU"
+1502076215888	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/NIRVEY04MU"
+1502076215888	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/NIRVEY04MU"
+1502076216022	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/KMOCRGXHPP"
+1502076216622	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/KMOCRGXHPP"
+1502076216648	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/KMOCRGXHPP"
+1502076216758	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/KMOCRGXHPP"
+1502076216759	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/KMOCRGXHPP"
+1502076216886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/CLDK2G6RMU"
+1502076217716	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/CLDK2G6RMU"
+1502076217735	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/CLDK2G6RMU"
+1502076218123	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/CLDK2G6RMU"
+1502076218123	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/CLDK2G6RMU"
+1502076218239	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/0M1SPKYTR4"
+1502076218758	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/0M1SPKYTR4"
+1502076218778	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/0M1SPKYTR4"
+1502076218873	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/0M1SPKYTR4"
+1502076218873	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/0M1SPKYTR4"
+1502076218989	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/INKDH43UE5"
+1502076219524	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/INKDH43UE5"
+1502076219546	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/INKDH43UE5"
+1502076219658	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/INKDH43UE5"
+1502076219658	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/INKDH43UE5"
+1502076219783	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/CG0HVMG2OF"
+1502076220407	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/CG0HVMG2OF"
+1502076220426	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/CG0HVMG2OF"
+1502076220526	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/CG0HVMG2OF"
+1502076220526	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/CG0HVMG2OF"
+1502076220655	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/INVQK941KJ"
+1502076221257	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/INVQK941KJ"
+1502076221274	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/INVQK941KJ"
+1502076221378	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/INVQK941KJ"
+1502076221378	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/INVQK941KJ"
+1502076221503	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/VWCAICDB8W"
+1502076222413	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/VWCAICDB8W"
+1502076222440	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/VWCAICDB8W"
+1502076222540	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/VWCAICDB8W"
+1502076222540	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/VWCAICDB8W"
+1502076222678	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/ZPD8TDKRE9"
+1502076223169	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/ZPD8TDKRE9"
+1502076223190	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/ZPD8TDKRE9"
+1502076223292	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/ZPD8TDKRE9"
+1502076223293	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/ZPD8TDKRE9"
+1502076223418	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/ASEQPBZMMX"
+1502076223833	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/ASEQPBZMMX"
+1502076223856	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/ASEQPBZMMX"
+1502076224082	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/ASEQPBZMMX"
+1502076224082	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/ASEQPBZMMX"
+1502076224208	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/RGOP31CS3I"
+1502076224468	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/RGOP31CS3I"
+1502076224490	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/RGOP31CS3I"
+1502076224588	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/RGOP31CS3I"
+1502076224589	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/RGOP31CS3I"
+1502076224701	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/8GS2WH93OE"
+1502076225055	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/8GS2WH93OE"
+1502076225075	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/8GS2WH93OE"
+1502076225174	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/8GS2WH93OE"
+1502076225175	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/8GS2WH93OE"
+1502076225317	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/39LQYJSLI0"
+1502076225435	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/39LQYJSLI0"
+1502076225457	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/39LQYJSLI0"
+1502076225749	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/39LQYJSLI0"
+1502076225749	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/39LQYJSLI0"
+1502076225871	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/XV8R3PQ2TZ"
+1502076226558	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/XV8R3PQ2TZ"
+1502076226579	Marionette	DEBUG	Received DOM event "beforeunload" for "https://stocksnap.io/photo/XV8R3PQ2TZ"
+1502076226673	Marionette	DEBUG	Received DOM event "pagehide" for "https://stocksnap.io/photo/XV8R3PQ2TZ"
+1502076226673	Marionette	DEBUG	Received DOM event "unload" for "https://stocksnap.io/photo/XV8R3PQ2TZ"
+1502076226799	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://stocksnap.io/photo/XGXORJWZIX"
+1502076227128	Marionette	DEBUG	Received DOM event "pageshow" for "https://stocksnap.io/photo/XGXORJWZIX"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 14302] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
