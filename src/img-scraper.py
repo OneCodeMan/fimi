@@ -29,6 +29,7 @@ all_hrefs = [link.get_attribute('href') for link in image_links_list]
 image_hrefs = [image_href for image_href in all_hrefs if image_href.startswith('https://stocksnap.io/photo')]
 
 for (i, href) in enumerate(image_hrefs):
+
     # go to link
     driver.get(href)
 
