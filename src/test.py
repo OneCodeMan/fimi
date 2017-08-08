@@ -1,3 +1,3 @@
-import config
+from config import *
 
-print(config.font_sizes)
+print(font_sizes)
