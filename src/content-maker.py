@@ -29,7 +29,11 @@ for f in os.listdir(img_path):
         i += 1
 
 '''
+find a way to UUID maybe like swift
+i = 0
 for each image:
-    for each permutation (font type, size, color, position, quote):
+    for each permutation -> (font type, size, color, position, quote):
         apply permutation to image
+        save image
+        i++
 '''
