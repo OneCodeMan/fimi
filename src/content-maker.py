@@ -7,6 +7,9 @@ import os
 font_path = 'assets/font/Slabo27px-Regular.ttf'
 font_size = 36
 
+# Colors
+colors = [(0, 0, 0)]
+
 # Quote
 quote = 'Be patient and tough; one day this pain will be useful to you.'
 
@@ -25,6 +28,6 @@ for f in os.listdir(img_path):
         img = Image.open(img_path + f)
         draw = ImageDraw.Draw(img)
         font = ImageFont.truetype(font_path, font_size)
-        draw.text((25, 100), quote, (0, 0, 0), font=font)
+        draw.text((25, 100), quote, colors[0], font=font)
         img.save(img_output + 'sample-out' + str(i) + '.jpg')
         i += 1
