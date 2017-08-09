@@ -2,3 +2,4 @@ assets/
 geckodriver.log
 .DS_Store
 src/__pycache__/
+*.pyc
