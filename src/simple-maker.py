@@ -1,3 +1,5 @@
+# Quotes on a black background and quotes on a white background
+
 from PIL import Image, ImageFont, ImageDraw
 
 im = Image.new('RGB', (100,200), (255,0,0))
