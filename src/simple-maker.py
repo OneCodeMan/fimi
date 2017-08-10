@@ -8,15 +8,16 @@ black_path = 'assets/img/simpleblack1/'
 dim = (1200, 1200)
 
 # White
-
 img_white = Image.new('RGBA', dim, white_rgb)
-draw = ImageDraw.Draw(img_white)
+for i in range(32):
+    draw = ImageDraw.Draw(img_white)
 
-img_white.save(white_path + 'white.png')
+    img_white.save(white_path + 'white' + str(i) + '.png')
 
 # Black
-
+'''
 img_black = Image.new('RGBA', dim, black_rgb)
 draw = ImageDraw.Draw(img_black)
 
 img_black.save(black_path + 'black.png')
+'''
