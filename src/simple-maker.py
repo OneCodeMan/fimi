@@ -2,21 +2,37 @@
 
 from PIL import Image, ImageFont, ImageDraw
 import config
+import textwrap
 
 white_rgb = (248, 248, 248)
 white_path = 'assets/img/simplewhite1/'
 black_rgb = (0, 1, 0)
 black_path = 'assets/img/simpleblack1/'
-dim = (1200, 1200)
+img_width, img_height = (1200, 1200)
+dim = (img_width, img_height)
+font_size = 36
+font_type = 'NotoSans-Regular.ttf'
+font_color = (0, 0, 0)
 
 # White
-img_white = Image.new('RGBA', dim, white_rgb)
 i = 0
 for quote in config.quotes_arr:
+    img_white = Image.new('RGBA', dim, white_rgb)
     draw = ImageDraw.Draw(img_white)
 
-    img_white.save(white_path + 'white' + str(i) + '.png')
+    lines = textwrap.wrap(quote, width=50)
+    font = ImageFont.truetype('assets/fonts/' + font_type, font_size)
+    line_height = 0
 
+    for line in lines:
+        text_width, text_height = draw.textsize(line)
+        x_text = ((img_width - text_width) / 4)
+        y_text = ((img_height - text_height) / 2) + line_height
+
+        draw.text((x_text, y_text), line, font_color, font=font)
+        line_height += 50
+
+    img_white.save(white_path + 'white' + str(i) + '.png')
     i += 1
 
 # Black
