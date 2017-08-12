@@ -8,6 +8,8 @@ https://www.instagram.com/executioner_mindset/
 - Text on a white background
 - Text on a black background
 
+![Instagram @executioner_mindset](http://i.imgur.com/JUWroHP.png)
+
 ## Next steps:
 - Text on a white background placed on an image
 - Automate caption generation
