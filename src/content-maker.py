@@ -4,9 +4,9 @@ from PIL import ImageDraw
 import textwrap
 import config
 import os
+import uuid
 
 # Action
-i = 0
 img_path = 'assets/img/stocksnap1/'
 img_output = 'assets/img/stocksnapoutput1/'
 
@@ -33,10 +33,9 @@ for f in os.listdir(img_path):
                 text_width, text_height = draw.textsize(line)
                 x_text = ((img_width - text_width) / 4) - 70
                 y_text = (img_height - text_height) / 4 + line_height
-                
+
                 draw.text((x_text, y_text), line, font_color, font=font)
                 line_height += 40
 
 
-            img.save(img_output + 'sample-out' + str(i) + '.jpg')
-            i += 1
+            img.save(img_output + 'sample-out' + str(uuid.uuid4()) + '.jpg')

@@ -1,6 +1,7 @@
 from selenium import webdriver
 import urllib.request
 import os
+import uuid
 
 # Initiate webdriver, go on URL.
 driver = webdriver.Firefox()
@@ -41,7 +42,7 @@ for (i, href) in enumerate(image_hrefs):
     src = img_div.find_element_by_tag_name('img').get_attribute('src')
 
     # download into directory
-    filename = os.path.join(desired_dir, str(i) + '.jpg')
+    filename = os.path.join(desired_dir, str(uuid.uuid4()) + '.jpg')
     urllib.request.urlretrieve(src, filename)
 
 driver.close()

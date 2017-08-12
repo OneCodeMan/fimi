@@ -1,7 +1,7 @@
 import itertools
 import os
 
-font_types = os.listdir('assets/fonts') # add more
+font_types = os.listdir('assets/fonts') 
 font_sizes = [size for size in range(34, 38, 2)]
 font_colors = [(255, 255, 255), (0, 0, 0)]
 

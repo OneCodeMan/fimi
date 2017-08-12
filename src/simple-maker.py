@@ -3,6 +3,7 @@
 from PIL import Image, ImageFont, ImageDraw
 import config
 import textwrap
+import uuid
 
 white_rgb = (248, 248, 248)
 white_path = 'assets/img/simplewhite1/'
@@ -18,8 +19,7 @@ font_size = 40
 font_type = 'Merriweather-Bold.ttf'
 line_break_width = 40
 
-def make_simple(bg_color, text_color, path, img_name):
-    i = 0
+def make_simple(bg_color, text_color, path, img_name, font_type):
     for quote in config.quotes_arr:
         img_white = Image.new('RGBA', dim, bg_color)
         draw = ImageDraw.Draw(img_white)
@@ -36,8 +36,9 @@ def make_simple(bg_color, text_color, path, img_name):
             draw.text((x_text, y_text), line, text_color, font=font)
             line_height += 50
 
-        img_white.save(path + img_name + str(i) + '.png')
-        i += 1
+        img_white.save(path + img_name + str(uuid.uuid4()) + '.png')
 
-make_simple(white_rgb, black_font_color, white_path, 'white')
-make_simple(black_rgb, white_font_color, black_path, 'black')
+
+for font in config.font_types:
+    make_simple(white_rgb, black_font_color, white_path, 'white', font)
+    make_simple(black_rgb, white_font_color, black_path, 'black', font)
