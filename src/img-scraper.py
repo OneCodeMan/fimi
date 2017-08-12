@@ -2,11 +2,7 @@ from selenium import webdriver
 import urllib.request
 import os
 import uuid
-
-# Initiate webdriver, go on URL.
-driver = webdriver.Firefox()
-desired_url = 'https://stocksnap.io'
-driver.get(desired_url)
+import config
 
 # Directory behaviour
 dir_exists = False
@@ -21,28 +17,33 @@ while not dir_exists:
 		os.makedirs(desired_dir)
 		dir_exists = True
 
-# List of image links
-image_div = driver.find_element_by_id('main')
-image_links_list = image_div.find_elements_by_tag_name('a')
+for url in config.image_links:
+	# Initiate webdriver, go on URL.
+	driver = webdriver.Firefox()
+	driver.get(url)
 
-# Collecting href of image_links_list
-href_target = 'https://stocksnap.io/photo'
-all_hrefs = [link.get_attribute('href') for link in image_links_list]
-image_hrefs = [image_href for image_href in all_hrefs if image_href.startswith(href_target)]
+	# List of image links
+	image_div = driver.find_element_by_id('main')
+	image_links_list = image_div.find_elements_by_tag_name('a')
 
-for (i, href) in enumerate(image_hrefs):
+	# Collecting href of image_links_list
+	href_target = 'https://stocksnap.io/photo'
+	all_hrefs = [link.get_attribute('href') for link in image_links_list]
+	image_hrefs = [image_href for image_href in all_hrefs if image_href.startswith(href_target)]
 
-    # go to link
-    driver.get(href)
+	for (i, href) in enumerate(image_hrefs):
 
-    # get div
-    img_div = driver.find_element_by_class_name('img-col')
+	    # go to link
+	    driver.get(href)
 
-    # get src
-    src = img_div.find_element_by_tag_name('img').get_attribute('src')
+	    # get div
+	    img_div = driver.find_element_by_class_name('img-col')
 
-    # download into directory
-    filename = os.path.join(desired_dir, str(uuid.uuid4()) + '.jpg')
-    urllib.request.urlretrieve(src, filename)
+	    # get src
+	    src = img_div.find_element_by_tag_name('img').get_attribute('src')
 
-driver.close()
+	    # download into directory
+	    filename = os.path.join(desired_dir, str(uuid.uuid4()) + '.jpg')
+	    urllib.request.urlretrieve(src, filename)
+
+	driver.close()

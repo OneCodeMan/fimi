@@ -6,9 +6,20 @@ import config
 import os
 import uuid
 
-# Action
-img_path = 'assets/img/stocksnap1/'
-img_output = 'assets/img/stocksnapoutput1/'
+# Directory behaviour
+dir_exists = False
+dir_version = 1
+
+while not dir_exists:
+	img_path = 'assets/img/stocksnap' + str(dir_version)
+    img_output = 'assets/img/stocksnapoutput' + str(dir_version)
+
+	if os.path.exists(img_path) and os.path.exists(img_output):
+		dir_version += 1
+	else:
+		os.makedirs(img_path)
+        os.makedirs(img_output)
+		dir_exists = True
 
 # format: [font_type, font_size, font_color, quote]
 
