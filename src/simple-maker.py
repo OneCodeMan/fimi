@@ -6,14 +6,16 @@ import textwrap
 
 white_rgb = (248, 248, 248)
 white_path = 'assets/img/simplewhite1/'
+black_font_color = (0, 0, 0)
+
 black_rgb = (0, 1, 0)
 black_path = 'assets/img/simpleblack1/'
+white_font_color = (255, 255, 255)
+
 img_width, img_height = (1200, 1200)
 dim = (img_width, img_height)
 font_size = 40
 font_type = 'Merriweather-Bold.ttf'
-black_font_color = (0, 0, 0)
-white_font_color = (255, 255, 255)
 line_break_width = 40
 
 # White
