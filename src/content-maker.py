@@ -21,12 +21,12 @@ while not dir_exists:
         os.makedirs(img_output)
     	dir_exists = True
 
-# format: [font_type, font_size, font_color, quote, quote_wrap]
+# format: [font_type, font_size, font_color, quote, quote_wrap, x_offset, y_offset]
 
 def generate_images(filter=None):
     for f in os.listdir(img_path):
         if f.endswith('.jpg'):
-            for perm in config.permutations:
+            for perm in config.permutations_small:
                 img_open = Image.open(img_path + '/' + f)
                 img = img_open.filter(filter) if filter else img_open
                 draw = ImageDraw.Draw(img)
@@ -35,6 +35,8 @@ def generate_images(filter=None):
                 font_color = perm[2]
                 quote = perm[3]
                 wrap = perm[4]
+                x_offset = perm[5]
+                y_offset = perm[6]
 
                 img_width, img_height = img.size
 
@@ -45,8 +47,8 @@ def generate_images(filter=None):
 
                 for line in lines:
                     text_width, text_height = draw.textsize(line)
-                    x_text = ((img_width - text_width) / 4) - 70
-                    y_text = (img_height - text_height) / 4 + line_height
+                    x_text = ((img_width - text_width) / 4) - x_offset
+                    y_text = ((img_height - text_height) / y_offset) + line_height
 
                     draw.text((x_text, y_text), line, font_color, font=font)
                     line_height += 40
