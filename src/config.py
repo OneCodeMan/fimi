@@ -27,5 +27,5 @@ y_offset = [y for y in range(2, 4)]
 # format: [font_type, font_size, font_color, quote, quote_wrap, x_offset, y_offset]
 states = [font_types, font_sizes, font_colors, quotes_arr, quote_wraps, x_offset, y_offset]
 permutations = list(itertools.product(*states))
-permutations_small = permutations[:50]
+permutations_small = permutations[:40]
 print(len(permutations))
